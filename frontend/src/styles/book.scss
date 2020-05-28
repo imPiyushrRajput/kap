@@ -100,19 +100,14 @@
           }}}
 
       .book-comments {
-        // background-color: brown;
         height: 100%;
         transform: translate(0, 15px);
         width:47%;
         padding: 0 20px;
         color:white;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: space-between;
+   
         .previous-book-comment{
-          // background-color: green;
           height: 70%;
-          // margin: 5px 0;
           overflow-y: scroll;
           width: 95%;
           color:white
@@ -158,10 +153,10 @@
         }
 
         .new-comment {
-          // background-color: chartreuse;
+         
           height: 20%;
           .star {
-            // background-color: chocolate;
+         
             display: flex;
             justify-content: space-between;
             .star-icons {
@@ -169,11 +164,11 @@
             }
           }
           .book-comment-input {
-            // background-color: cornflowerblue;
+         
             height: 80%;
             form {
               height: 100%;
-              // background-color: cornsilk;
+        
               button {
                 font-size: 13px;
                 background-color: transparent;
